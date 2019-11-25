@@ -14,7 +14,7 @@ parameters = [5, 50, 5, 5];
 % Multiple images to stitch.
 %------------------
 %% Initialization
-pathname = strcat('Imgs\1\');
+pathname = strcat('Imgs\...\');
 outpath = strcat(pathname, 'results\'); %-testparas
 imgs_format = '*.jpg';
 dir_folder = dir(strcat(pathname, imgs_format));
